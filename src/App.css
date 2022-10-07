@@ -1,0 +1,14 @@
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.select-crossroad {
+  display: flex;
+}
+
+.select-crossroad * {
+  font-size: 1.2rem;
+}
