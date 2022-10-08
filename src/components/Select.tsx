@@ -1,9 +1,10 @@
 import React from "react";
+import { CrossRoadType } from "../data/types";
 
 type PropsType = {
   options: string[];
   value: string;
-  setValue: (v: string) => void;
+  setValue: (v: CrossRoadType) => void;
 };
 const CrossroadSelect: React.FC<PropsType> = ({ value, setValue, options }) => {
   return (
@@ -12,7 +13,7 @@ const CrossroadSelect: React.FC<PropsType> = ({ value, setValue, options }) => {
       <select
         className="p-1"
         value={value}
-        onChange={(e) => setValue(e.target.value)}
+        onChange={(e) => setValue(e.target.value as CrossRoadType)}
       >
         {options.map((op, i) => (
           <option key={i} value={op.toLowerCase()}>

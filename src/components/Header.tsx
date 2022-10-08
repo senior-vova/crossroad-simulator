@@ -2,7 +2,7 @@ import React from "react";
 
 const Header: React.FC = () => {
   return (
-    <header className="py-5">
+    <header className="py-4">
       <h1>Crossroad simulator</h1>
     </header>
   );

@@ -4,16 +4,22 @@ import CrossroadSelect from "./components/Select";
 import Header from "./components/Header";
 
 import "./App.css";
+import { CrossRoadsList, CrossRoadType } from "./data/types";
+import Container from "./components/Container";
 
 const App: React.FC = () => {
-  const types: Array<string> = ["Simple", "T-type"];
-  const [type, setType] = useState("simple");
+  const [type, setType] = useState<CrossRoadType>("simple");
 
   return (
     <>
       <Header />
       <main>
-        <CrossroadSelect options={types} value={type} setValue={setType} />
+        <CrossroadSelect
+          options={CrossRoadsList}
+          value={type}
+          setValue={setType}
+        />
+        <Container crossroadType={type} />
       </main>
       <Footer />
     </>
