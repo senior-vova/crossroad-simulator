@@ -7,14 +7,14 @@ const Footer: React.FC = () => {
       <a rel="noreferrer" href="https://github.com/senior-vova" target="_blank">
         Senior Vova
       </a>
-      . Fork me on{" "}
+      {/* . Fork me on{" "}
       <a
         rel="noreferrer"
         href="https://github.com/senior-vova/crossroad-simulator.git"
         target="_blank"
       >
         GitHub
-      </a>
+      </a> */}
       .
     </footer>
   );
