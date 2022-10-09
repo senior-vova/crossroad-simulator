@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/crossroad-simulator/static/css/main.f1f9bc8a.css",
+    "main.js": "/crossroad-simulator/static/js/main.5277ffc9.js",
+    "static/media/yellow-car.png": "/crossroad-simulator/static/media/yellow-car.26293a8cf0f9cf3da753.png",
+    "static/media/red-car.png": "/crossroad-simulator/static/media/red-car.912d0aa02c19928f09d0.png",
+    "static/media/blue-car.png": "/crossroad-simulator/static/media/blue-car.d8eafaa59f777e3f8eed.png",
+    "index.html": "/crossroad-simulator/index.html",
+    "main.f1f9bc8a.css.map": "/crossroad-simulator/static/css/main.f1f9bc8a.css.map",
+    "main.5277ffc9.js.map": "/crossroad-simulator/static/js/main.5277ffc9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f1f9bc8a.css",
+    "static/js/main.5277ffc9.js"
+  ]
+}
